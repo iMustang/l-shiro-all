@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="c07web" />
         <module name="l-shiro" />
+        <module name="c10session" />
+        <module name="c07web" />
       </profile>
     </annotationProcessing>
   </component>
