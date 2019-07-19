@@ -20,7 +20,9 @@ public class MySessionValidationScheduler implements SessionValidationScheduler,
 
     private JdbcTemplate jdbcTemplate = JdbcTemplateUtils.jdbcTemplate();
 
-    /** Private internal log instance. */
+    /**
+     * Private internal log instance.
+     */
     private static final Logger log = LoggerFactory.getLogger(MySessionValidationScheduler.class);
 
     ValidatingSessionManager sessionManager;
@@ -83,8 +85,8 @@ public class MySessionValidationScheduler implements SessionValidationScheduler,
         int start = 0; //起始记录
         int size = 20; //每页大小
         List<String> sessionList = jdbcTemplate.queryForList(sql, String.class, start, size);
-        while(sessionList.size() > 0) {
-            for(String sessionStr : sessionList) {
+        while (sessionList.size() > 0) {
+            for (String sessionStr : sessionList) {
                 try {
                     Session session = SerializableUtils.deserialize(sessionStr);
                     Method validateMethod = ReflectionUtils.findMethod(AbstractValidatingSessionManager.class, "validate", Session.class, SessionKey.class);

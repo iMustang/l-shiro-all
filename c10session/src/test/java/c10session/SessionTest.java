@@ -1,9 +1,9 @@
 package c10session;
 
-import junit.framework.Assert;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -15,7 +15,7 @@ public class SessionTest extends BaseTest {
 
     @Test
     public void testGetSession() throws Exception{
-        login("classpath:shiro.ini", "zhang", "123");
+        login("classpath:c10session/shiro.ini", "zhang", "123");
         Subject subject = SecurityUtils.getSubject();
         Session session = subject.getSession();//获取会话
 

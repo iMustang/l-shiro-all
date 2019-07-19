@@ -3,11 +3,6 @@ package c10session.web.listener;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.SessionListenerAdapter;
 
-/**
- * <p>User: Zhang Kaitao
- * <p>Date: 14-2-8
- * <p>Version: 1.0
- */
 public class MySessionListener2 extends SessionListenerAdapter {
     @Override
     public void onStart(Session session) {
