@@ -1,6 +1,6 @@
 package c16cdemo.service;
 
-import c26cdemo.entity.Organization;
+import c16cdemo.entity.Organization;
 
 import java.util.List;
 

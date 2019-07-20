@@ -1,6 +1,6 @@
 package c16cdemo.web.bind.method;
 
-import c26cdemo.web.bind.annotation.CurrentUser;
+import c16cdemo.web.bind.annotation.CurrentUser;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;

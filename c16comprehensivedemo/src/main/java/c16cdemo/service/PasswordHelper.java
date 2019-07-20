@@ -1,6 +1,6 @@
 package c16cdemo.service;
 
-import c26cdemo.entity.User;
+import c16cdemo.entity.User;
 import org.apache.shiro.crypto.RandomNumberGenerator;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.SimpleHash;

@@ -2,6 +2,7 @@ package c14ssl.realm;
 
 import c14ssl.entity.User;
 import c14ssl.service.UserService;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;

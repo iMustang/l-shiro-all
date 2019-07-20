@@ -1,6 +1,6 @@
 package c16cdemo.dao;
 
-import c26cdemo.entity.Role;
+import c16cdemo.entity.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

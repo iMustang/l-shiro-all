@@ -1,6 +1,6 @@
 package c16cdemo.service;
 
-import c26cdemo.entity.Resource;
+import c16cdemo.entity.Resource;
 
 import java.util.List;
 import java.util.Set;

@@ -1,7 +1,7 @@
 package c16cdemo.service;
 
-import c26cdemo.dao.OrganizationDao;
-import c26cdemo.entity.Organization;
+import c16cdemo.dao.OrganizationDao;
+import c16cdemo.entity.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

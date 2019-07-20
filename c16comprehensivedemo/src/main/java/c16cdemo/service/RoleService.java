@@ -1,6 +1,6 @@
 package c16cdemo.service;
 
-import c26cdemo.entity.Role;
+import c16cdemo.entity.Role;
 
 import java.util.List;
 import java.util.Set;

@@ -16,7 +16,7 @@
 
 package c16cdemo.web.bind.annotation;
 
-import c26cdemo.Constants;
+import c16cdemo.Constants;
 
 import java.lang.annotation.*;
 

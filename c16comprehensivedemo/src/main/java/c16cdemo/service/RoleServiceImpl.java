@@ -1,7 +1,7 @@
 package c16cdemo.service;
 
-import c26cdemo.dao.RoleDao;
-import c26cdemo.entity.Role;
+import c16cdemo.dao.RoleDao;
+import c16cdemo.entity.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

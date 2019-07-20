@@ -1,7 +1,7 @@
 package c16cdemo.service;
 
-import c26cdemo.dao.ResourceDao;
-import c26cdemo.entity.Resource;
+import c16cdemo.dao.ResourceDao;
+import c16cdemo.entity.Resource;
 import org.apache.shiro.authz.permission.WildcardPermission;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

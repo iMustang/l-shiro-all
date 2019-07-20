@@ -1,9 +1,9 @@
 package c16cdemo.web.controller;
 
-import c26cdemo.entity.User;
-import c26cdemo.service.OrganizationService;
-import c26cdemo.service.RoleService;
-import c26cdemo.service.UserService;
+import c16cdemo.entity.User;
+import c16cdemo.service.OrganizationService;
+import c16cdemo.service.RoleService;
+import c16cdemo.service.UserService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

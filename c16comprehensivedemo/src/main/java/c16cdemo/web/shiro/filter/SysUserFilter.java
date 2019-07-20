@@ -1,7 +1,7 @@
 package c16cdemo.web.shiro.filter;
 
-import c26cdemo.Constants;
-import c26cdemo.service.UserService;
+import c16cdemo.Constants;
+import c16cdemo.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.web.filter.PathMatchingFilter;
 import org.springframework.beans.factory.annotation.Autowired;

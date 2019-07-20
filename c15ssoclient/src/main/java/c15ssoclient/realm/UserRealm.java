@@ -2,6 +2,7 @@ package c15ssoclient.realm;
 
 import c15ssoclient.entity.User;
 import c15ssoclient.service.UserService;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;

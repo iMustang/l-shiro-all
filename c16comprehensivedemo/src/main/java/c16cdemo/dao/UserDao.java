@@ -1,6 +1,6 @@
 package c16cdemo.dao;
 
-import c26cdemo.entity.User;
+import c16cdemo.entity.User;
 
 import java.util.List;
 

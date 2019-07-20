@@ -1,7 +1,8 @@
 package c16cdemo.realm;
 
-import c26cdemo.entity.User;
-import c26cdemo.service.UserService;
+import c16cdemo.entity.User;
+import c16cdemo.service.UserService;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;

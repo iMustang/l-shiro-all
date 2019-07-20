@@ -1,10 +1,10 @@
 package c16cdemo.web.controller;
 
-import c26cdemo.entity.Resource;
-import c26cdemo.entity.User;
-import c26cdemo.service.ResourceService;
-import c26cdemo.service.UserService;
-import c26cdemo.web.bind.annotation.CurrentUser;
+import c16cdemo.entity.Resource;
+import c16cdemo.entity.User;
+import c16cdemo.service.ResourceService;
+import c16cdemo.service.UserService;
+import c16cdemo.web.bind.annotation.CurrentUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

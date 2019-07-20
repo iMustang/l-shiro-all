@@ -2,6 +2,7 @@ package c12spring.realm;
 
 import c12spring.entity.User;
 import c12spring.service.UserService;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
