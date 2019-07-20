@@ -22,6 +22,8 @@
         <module>c15ssoclient</module>
         <module>c16comprehensivedemo</module>
         <module>c17oauth2</module>
+        <module>c17oauth2server</module>
+        <module>c17oauth2client</module>
     </modules>
     <dependencyManagement>
         <dependencies>

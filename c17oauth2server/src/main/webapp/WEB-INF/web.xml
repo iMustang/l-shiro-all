@@ -6,7 +6,6 @@
         version="3.0"
         metadata-complete="true">
 
-    <display-name>shiro-example-c17oauth2server</display-name>
 
     <!-- Spring配置文件开始  -->
     <context-param>
@@ -61,6 +60,7 @@
         <url-pattern>/*</url-pattern>
         <dispatcher>REQUEST</dispatcher>
     </filter-mapping>
+
 
     <servlet>
         <servlet-name>spring</servlet-name>
