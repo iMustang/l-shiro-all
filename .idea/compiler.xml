@@ -8,10 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="c09jsp" />
         <module name="c15ssoclient" />
-        <module name="c16comprehensivedemo" />
+        <module name="c08filter" />
         <module name="c07web" />
         <module name="c15ssoserver" />
-        <module name="c08filter" />
+        <module name="c16comprehensivedemo" />
         <module name="c10session" />
         <module name="l-shiro" />
         <module name="c14ssl" />
