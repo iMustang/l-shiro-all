@@ -6,5 +6,5 @@
 .settings
 *.iml
 /out
-/target/
 *.stackdump
+target
