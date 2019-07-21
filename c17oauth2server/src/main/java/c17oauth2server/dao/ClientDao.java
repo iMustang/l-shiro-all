@@ -11,11 +11,11 @@ import java.util.List;
  */
 public interface ClientDao {
 
-	public Client createClient(Client client);
+	Client createClient(Client client);
 
-	public Client updateClient(Client client);
+	Client updateClient(Client client);
 
-	public void deleteClient(Long clientId);
+	void deleteClient(Long clientId);
 
 	Client findOne(Long clientId);
 

@@ -23,7 +23,7 @@ public class ClientDaoImpl implements ClientDao {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
-    
+
     public Client createClient(final Client client) {
         final String sql = "insert into oauth2_client(client_name, client_id, client_secret) values(?,?,?)";
 

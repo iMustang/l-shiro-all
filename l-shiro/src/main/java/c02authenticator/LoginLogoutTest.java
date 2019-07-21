@@ -58,6 +58,7 @@ public class LoginLogoutTest {
         UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
 
         try {
+            // 登录，即身份验证
             subject.login(token);
         } catch (AuthenticationException e) {
             e.printStackTrace();

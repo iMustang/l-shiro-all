@@ -16,14 +16,14 @@ import javax.servlet.ServletResponse;
  */
 public class SysUserFilter extends PathMatchingFilter {
 
-    @Autowired
-    private UserService userService;
+	@Autowired
+	private UserService userService;
 
-    @Override
-    protected boolean onPreHandle(ServletRequest request, ServletResponse response, Object mappedValue) throws Exception {
+	@Override
+	protected boolean onPreHandle(ServletRequest request, ServletResponse response, Object mappedValue) {
 
-        String username = (String)SecurityUtils.getSubject().getPrincipal();
-        request.setAttribute(Constants.CURRENT_USER, userService.findByUsername(username));
-        return true;
-    }
+		String username = (String) SecurityUtils.getSubject().getPrincipal();
+		request.setAttribute(Constants.CURRENT_USER, userService.findByUsername(username));
+		return true;
+	}
 }

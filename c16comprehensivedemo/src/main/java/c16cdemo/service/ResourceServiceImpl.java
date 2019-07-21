@@ -18,7 +18,6 @@ import java.util.Set;
  * <p>Version: 1.0
  */
 @Service
-
 public class ResourceServiceImpl implements ResourceService {
 
     @Autowired
