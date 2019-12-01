@@ -52,9 +52,11 @@ public class LoginLogoutTest {
         Factory<SecurityManager> factory =
                 new IniSecurityManagerFactory("classpath:c02authenticator/shiro-realm.ini");
         SecurityManager securityManager = factory.getInstance();
+
         SecurityUtils.setSecurityManager(securityManager);
 
         Subject subject = SecurityUtils.getSubject();
+
         UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
 
         try {
